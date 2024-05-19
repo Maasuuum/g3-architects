@@ -125,3 +125,49 @@ main{
     font-size: 21px;
     font-weight: 400;
 }
+
+/* features design */
+.facts{
+    padding: 130px 200px;
+}
+.facts-h2{
+    color: var(--Dark-01, #131313);
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.facts-p{
+    color: var(--Dark-03, #727272);
+    font-size: 16px;
+    font-weight: 400;
+    width: 542px;
+}
+
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+    /* margin: 100px au; */
+}
+.facts-card-container .facts-card{
+    border-radius: 5px;
+    text-align: center;
+    padding: 40px 30px;
+    background-color: rgb(240, 93, 76);
+    box-shadow: 15px 10px 10px gray;
+}
+.facts-card-title{
+    color: var(--Dark-02, #424242);
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.facts-card-description{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    color: antiquewhite;
+}
+
