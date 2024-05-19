@@ -170,4 +170,39 @@ main{
     font-weight: 600;
     color: antiquewhite;
 }
+/* sponsor design */
+.sponsors{
+    text-align: center;
+}
+.sponsors-title{
+    color: var(--Dark-01, #131313);
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.sponsors-description{
+    color: var(--Dark-03, #727272);;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.sponsors-img{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    background-color: rgba(255, 144, 14, 0.10);
+    margin: 130px 240px 50px;
+    border-radius: 10px;
+    
+}
+.footer-text{
+    color: var(--Dark-02, #424242);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 40px 100px;
+}
 
