@@ -77,6 +77,44 @@
         font-weight: 350;
     }
 }
+
+/* main feature */
+@media screen and (max-width: 576px){
+    .main-feature{
+        margin-top: 100px;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .main-feature-content-title{
+        font-size: 45px;
+        font-weight: 700;
+        width: 268px;
+        padding-left: 20px;
+    }
+    .main-feature-content-desc{
+        width: 360px;
+    }
+    .main-feature-img img{
+        width: 305px;
+    }
+    .years-badge{
+        width: 142px;
+        height: 100px;
+        bottom: 70px;
+    }
+    .years-badge h2{
+        font-size: 30px;
+    }
+    .years-badge p{
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width:960px){
+    .main-feature{
+        flex-direction: column;
+    }
+}
+
 /* fact section */
 @media screen and (max-width: 576px){
     .facts{
